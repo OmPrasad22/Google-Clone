@@ -1,0 +1,121 @@
+html body{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    background-color: red;
+    height: 100vh;
+    width: 100%;
+}
+
+.header{
+    background-color: aqua;
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-section{
+    background-color: blueviolet;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about, .store, .gmail, .images{
+    background-color: aliceblue;
+    border: none;
+    cursor: pointer;
+}
+
+.right-section{
+    background-color: blueviolet;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu, .profile{
+    background-color: beige;
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu img{
+    width: 50%;
+    height: 50%;
+}
+
+.profile img{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.body-container{
+    background-color: rgb(255, 189, 102);
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subBody{
+    background-color: cadetblue;
+    width: 50%;
+    height: 60%;
+}
+
+.gPNG{
+    background-color: beige;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gPNG img{
+    height: 100%;
+    width: 70%;
+    cursor: pointer;
+}
+
+.search-bar{
+    background-color: yellow;
+    width: 100%;
+    height: 25%;
+}
+
+.others-item{
+    background-color: violet;
+    width: 100%;
+    height: 20%;
+}
+
+.language-bar{
+    background-color: aliceblue;
+    width: 100%;
+    height: 15%;
+}
+
+.footer{
+    background-color: bisque;
+    height: 10%;
+    width: 100%;
+}
