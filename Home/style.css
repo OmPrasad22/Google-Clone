@@ -3,14 +3,16 @@ html body{
     padding: 0;
 }
 
+* > button{
+    background: none;
+}
+
 .main-container{
-    background-color: red;
     height: 100vh;
     width: 100%;
 }
 
 .header{
-    background-color: aqua;
     width: 100%;
     height: 10%;
     display: flex;
@@ -19,7 +21,6 @@ html body{
 }
 
 .left-section{
-    background-color: blueviolet;
     height: 100%;
     width: 15%;
     display: flex;
@@ -29,13 +30,11 @@ html body{
 }
 
 .about, .store, .gmail, .images{
-    background-color: aliceblue;
     border: none;
     cursor: pointer;
 }
 
 .right-section{
-    background-color: blueviolet;
     height: 100%;
     width: 25%;
     display: flex;
@@ -45,7 +44,6 @@ html body{
 }
 
 .menu, .profile{
-    background-color: beige;
     width: 25%;
     height: 100%;
     display: flex;
@@ -67,7 +65,6 @@ html body{
 }
 
 .body-container{
-    background-color: rgb(255, 189, 102);
     height: 80%;
     width: 100%;
     display: flex;
@@ -76,15 +73,16 @@ html body{
 }
 
 .subBody{
-    background-color: cadetblue;
-    width: 50%;
-    height: 60%;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gPNG{
-    background-color: beige;
     width: 100%;
-    height: 40%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,30 +90,112 @@ html body{
 
 .gPNG img{
     height: 100%;
-    width: 70%;
+    width: auto;
     cursor: pointer;
 }
 
 .search-bar{
-    background-color: yellow;
     width: 100%;
-    height: 25%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    border-radius: 25px;
+    padding: 0 1% 0 1%;
+}
+
+.l_con{
+    width: 5%;
+    height: auto;
+    display: flex;
+    padding: 1%;
+}
+
+.l_con img{
+    height: 100%;
+    width: auto;
+    cursor: pointer;
+}
+
+.inp{
+    width: 80%;
+    height: auto;
+    display: flex;
+}
+
+.inp input{
+    width: 100%;
+    height: auto;
+    outline: none;
+    border: none;
+    font-size: large;
+}
+
+.r_con{
+    width: 15%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.r_con div{
+    width: 100%;
+    height: auto;
+    padding: 4%;
+    display: flex;
+}
+
+.r_con img{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
 }
 
 .others-item{
-    background-color: violet;
-    width: 100%;
+    width: 60%;
     height: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.others-item div{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.others-item button{
+    padding: 2%;
+    border: none;
+    box-shadow: 2px 2px gainsboro;
+    cursor: pointer;
 }
 
 .language-bar{
-    background-color: aliceblue;
     width: 100%;
     height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.language-bar a{
+    text-decoration: none;
 }
 
 .footer{
-    background-color: bisque;
     height: 10%;
     width: 100%;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer label, .footer a{
+    margin: 2%;
+    text-decoration: none;
+    color: black;
 }
